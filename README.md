@@ -52,7 +52,7 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSite
 
 <br>
 
-![image](https://user-images.githubusercontent.com/1501327/151495137-6cad6088-b33a-4dd4-ab28-6eede65f24c7.png)
+![image](https://user-images.githubusercontent.com/1501327/151495246-3e7c82bf-b7be-43b2-87c9-db4df1ec1104.png)
 
 ```xml
 <site-list version="1.0">
