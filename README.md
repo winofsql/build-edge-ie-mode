@@ -104,6 +104,8 @@ Windows Registry Editor Version 5.00
 
 ```
 
+<br>
+
 - [Internet Explorerユーザーのセキュリティ ゾーン レジストリ エントリの管理](https://docs.microsoft.com/ja-JP/troubleshoot/developer/browsers/security-privacy/ie-security-zones-registry-entries)<br><br>
   - 特に指定しない限り、各 DWORD 値は 0、1、または 3 に等しくなります。 
   - 通常、0 の設定は、許可されている特定のアクションを設定します
