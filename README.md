@@ -67,7 +67,7 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSite
 
 - UI からはコントロールパネルのインターネットオプションを使用します
 
-- レジストリから対象サイトは以下のようになります( http のみのサンプル / サブドメインはツリーになります )
+- 信頼済サイトはレジストリから以下のようになります( http のみのサンプル / サブドメインはツリーになります )
 ```
 Windows Registry Editor Version 5.00
 
