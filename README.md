@@ -80,6 +80,15 @@ Windows Registry Editor Version 5.00
 
 ```
 
+| Value | Setting |
+| ------------- | ------------- |
+| 0  | My Computer  |
+| 1  | Local Intranet Zone  |
+| 2  | **Trusted sites Zone**  |
+| 3  | Internet Zone  |
+| 4  | Restricted Sites Zone  |
+
+
 - スクリプトを実行しても安全だとマークされていない ActiveX コントロールの初期化とスクリプトの実行
 - ドメイン間でのデータ ソースのアクセス
 - **上記を可能にするには以下のようになります**
