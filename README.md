@@ -80,7 +80,7 @@ Windows Registry Editor Version 5.00
 
 ```
 
-| Value | Setting |
+| Value | Setting Zones |
 | ------------- | ------------- |
 | 0  | My Computer  |
 | 1  | Local Intranet Zone  |
