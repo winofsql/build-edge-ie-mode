@@ -39,7 +39,10 @@ Windows Registry Editor Version 5.00
 ```
 
 - 上記テキストを .reg で保存してエクスプローラからインポートするか、以下のコマンドを管理者権限のコマンドプロンプトから実行
+  - ファイルのパスやファイル名は自由です
+  - %appdata% を使えば、多くの PC で共通のインストーラを作成する場合に適していると思います
 
 ```
 reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /t REG_SZ /d C:\Users\ユーザ名\AppData\Roaming\sites.xml /f
 ```
+
