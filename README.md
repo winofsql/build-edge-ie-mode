@@ -27,3 +27,19 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v EnterpriseModeSiteListManagerAl
 
 - 登録したサイトを XML ファイルとして取得する為に、XML にエクスポートをクリックして保存します
   - ( 保存後は、保存した XML を使うように設定するのでエントリは削除します )
+
+## XML に記録したサイトを IEモードで開けれるようにする
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"InternetExplorerIntegrationLevel"=dword:00000001
+"InternetExplorerIntegrationSiteList"="C:\\Users\\ユーザ名\\AppData\\Roaming\\sites.xml"
+
+```
+
+- 上記テキストを .reg で保存してエクスプローラからインポートするか、以下のコマンドを管理者権限のコマンドプロンプトから実行
+
+```
+reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /t REG_SZ /d C:\Users\ユーザ名\AppData\Roaming\sites.xml /f
+```
