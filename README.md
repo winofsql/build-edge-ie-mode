@@ -1,5 +1,7 @@
 ### Edge の IEモードを使用して IE で使用していた ActiveX 利用等の特別なサイトを引き続き利用する手順
 
+<br>
+
 ## 対象 URL を IEモードする為の XML を作成する
 ```
 Windows Registry Editor Version 5.00
