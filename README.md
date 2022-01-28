@@ -8,3 +8,7 @@ Windows Registry Editor Version 5.00
 "EnterpriseModeSiteListManagerAllowed"=dword:00000001
 
 ```
+
+```
+reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v EnterpriseModeSiteListManagerAllowed /t REG_DWORD /d 1 /f
+```
