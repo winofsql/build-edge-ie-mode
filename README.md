@@ -79,3 +79,16 @@ Windows Registry Editor Version 5.00
 
 
 ```
+
+- スクリプトを実行しても安全だとマークされていない ActiveX コントロールの初期化とスクリプトの実行
+- ドメイン間でのデータ ソースのアクセス
+- **上記を可能にするには以下のようになります**
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1201"=dword:00000003
+"1406"=dword:00000003
+
+```
