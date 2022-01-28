@@ -52,3 +52,11 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSite
 
 ![image](https://user-images.githubusercontent.com/1501327/151494956-9e165a18-8e6f-42fa-a503-82c034f23aa2.png)
 
+```xml
+<site-list version="1.0">
+  <site url="http://localhost">
+    <compat-mode>Default</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
+</site-list>
+```
