@@ -14,3 +14,9 @@ Windows Registry Editor Version 5.00
 ```
 reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v EnterpriseModeSiteListManagerAllowed /t REG_DWORD /d 1 /f
 ```
+
+- Edge を起動してアドレスバーに edge://compat と入力
+- エンタープライズ サイト リスト マネージャーを選択
+- サイトの追加をクリック
+
+![image](https://user-images.githubusercontent.com/1501327/151492507-56006468-02af-4f8b-9738-c2a4498bb7a6.png)
