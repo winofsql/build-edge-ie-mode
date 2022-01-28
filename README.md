@@ -67,6 +67,9 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSite
 
 - UI からはコントロールパネルのインターネットオプションを使用します
 
+![image](https://user-images.githubusercontent.com/1501327/151499552-5764f687-adbc-473f-9c2f-ff8075090544.png)
+
+
 - 信頼済サイトはレジストリから以下のようになります( http のみのサンプル / サブドメインはツリーになります )
 ```
 Windows Registry Editor Version 5.00
