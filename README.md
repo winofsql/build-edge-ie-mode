@@ -28,6 +28,8 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v EnterpriseModeSiteListManagerAl
 - 登録したサイトを XML ファイルとして取得する為に、XML にエクスポートをクリックして保存します
   - ( 保存後は、保存した XML を使うように設定するのでエントリは削除します )
 
+<br>
+
 ## XML に記録したサイトを IEモードで開けれるようにする
 ```
 Windows Registry Editor Version 5.00
@@ -103,6 +105,7 @@ Windows Registry Editor Version 5.00
 ```
 
 - [Internet Explorerユーザーのセキュリティ ゾーン レジストリ エントリの管理](https://docs.microsoft.com/ja-JP/troubleshoot/developer/browsers/security-privacy/ie-security-zones-registry-entries)
+<br>
   - 特に指定しない限り、各 DWORD 値は 0、1、または 3 に等しくなります。 
   - 通常、0 の設定は、許可されている特定のアクションを設定します
   - 1 の設定を指定するとプロンプトが表示されます
