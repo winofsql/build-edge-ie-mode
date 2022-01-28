@@ -42,6 +42,8 @@ Windows Registry Editor Version 5.00
   - ファイルのパスやファイル名は自由です
   - %appdata% を使えば、多くの PC で共通のインストーラを作成する場合に適していると思います
 
+<br>
+
 ```
 reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /t REG_SZ /d C:\Users\ユーザ名\AppData\Roaming\sites.xml /f
 ```
