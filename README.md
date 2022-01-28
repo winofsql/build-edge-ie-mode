@@ -9,7 +9,7 @@ Windows Registry Editor Version 5.00
 
 ```
 
-- 上記テキストを .reg で保存してエクスプローラからインポートするか、以下のコマンドを実行
+- 上記テキストを .reg で保存してエクスプローラからインポートするか、以下のコマンドを管理者権限のコマンドプロンプトから実行
 
 ```
 reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v EnterpriseModeSiteListManagerAllowed /t REG_DWORD /d 1 /f
