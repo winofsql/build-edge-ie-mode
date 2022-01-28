@@ -50,3 +50,5 @@ Windows Registry Editor Version 5.00
 reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /t REG_SZ /d C:\Users\ユーザ名\AppData\Roaming\sites.xml /f
 ```
 
+![image](https://user-images.githubusercontent.com/1501327/151494956-9e165a18-8e6f-42fa-a503-82c034f23aa2.png)
+
