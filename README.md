@@ -22,3 +22,5 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v EnterpriseModeSiteListManagerAl
 ![image](https://user-images.githubusercontent.com/1501327/151492507-56006468-02af-4f8b-9738-c2a4498bb7a6.png)
 
 ![image](https://user-images.githubusercontent.com/1501327/151492626-61115803-f1d0-48d3-ad8f-5108e5443ee4.png)
+
+- 登録したサイトを XML ファイルとして取得する為に、XML にエクスポートをクリックして保存します
