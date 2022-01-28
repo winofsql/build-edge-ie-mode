@@ -62,3 +62,17 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSite
   </site>
 </site-list>
 ```
+
+## 対象サイトのインターネットオプションを設定する
+
+- UI からはコントロールパネルのインターネットオプションを使用します
+
+- レジストリから対象サイトは以下のようになります( http のみのサンプル / サブドメインはツリーになります )
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\localhost]
+"http"=dword:00000002
+
+
+```
