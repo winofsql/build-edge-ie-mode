@@ -97,3 +97,5 @@ Windows Registry Editor Version 5.00
 - 通常、0 の設定は、許可されている特定のアクションを設定します
 - 1 の設定を指定するとプロンプトが表示されます
 - 3 の設定では特定のアクションが禁止されます
+
+[Internet Explorerユーザーのセキュリティ ゾーン レジストリ エントリの管理](https://docs.microsoft.com/ja-JP/troubleshoot/developer/browsers/security-privacy/ie-security-zones-registry-entries)
