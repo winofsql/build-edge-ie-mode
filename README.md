@@ -87,8 +87,8 @@ Windows Registry Editor Version 5.00
 ```
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
-"1201"=dword:00000003
-"1406"=dword:00000003
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1201"=dword:00000000
+"1406"=dword:00000000
 
 ```
