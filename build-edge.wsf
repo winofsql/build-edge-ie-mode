@@ -17,7 +17,7 @@ end if
 
 site_path = WshShell.ExpandEnvironmentStrings("%appdata%") & "\site.xml"
 
-Wscript.Echo site_path
+' Wscript.Echo site_path
 
 Set site_file = Fso.CreateTextFile(site_path, True)
 site_file.Write( RegTrim( GetResource("myTextData")) )
