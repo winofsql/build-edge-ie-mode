@@ -8,7 +8,7 @@ Dim site_path
 Dim command
 
 ' ***********************************************************
-' 処理開始
+' 
 ' ***********************************************************
 if Wscript.Arguments.Count = 0 then
 	Shell.ShellExecute "wscript.exe", WScript.ScriptFullName & " runas", "", "runas", 1
@@ -39,10 +39,10 @@ Call WshShell.Run( command, 1 )
 command = "reg add ""HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2"" /v 1406 /t REG_DWORD /d 0 /f"
 Call WshShell.Run( command, 1 )
 
-Wscript.Echo "処理が終了しました"
+Wscript.Echo "OK"
 
 ' ***********************************************************
-' 文字列前後の漢字スペースを含むホワイトスペースの削除
+' 
 ' ***********************************************************
 Function RegTrim( strValue )
  
@@ -60,7 +60,7 @@ End Function
 
 <COMMENT>
 ************************************************************
- ソース内テキストデータ
+ 
 ************************************************************
 </COMMENT>
 <RESOURCE id="myTextData">
