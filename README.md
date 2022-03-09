@@ -2,7 +2,7 @@
 
 <br>
 
-## 対象 URL を IEモードする為の XML を作成する
+## 対象 URL を IEモードにする為の XML を作成する
 ```
 Windows Registry Editor Version 5.00
 
