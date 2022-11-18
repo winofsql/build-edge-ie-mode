@@ -113,3 +113,8 @@ Windows Registry Editor Version 5.00
   - 3 の設定では特定のアクションが禁止されます
 
 
+
+### デバッグ方法
+```
+%systemroot%\system32\f12\IEChooser.exe
+```
